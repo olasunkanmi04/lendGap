@@ -1,0 +1,24 @@
+{
+  "name": "lendgap",
+  "version": "1.0.0",
+  "description": "",
+  "engines": {
+    "node": "6.x.x"
+  },
+  "local-web-server": {
+    "port": 8081,
+    "forbid": "*.json"
+  },
+  "scripts": {
+    "start": "ws -d 'app'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-install": "^1.1.0",
+    "gulp-sass": "^2.3.2",
+    "local-web-server": "^1.2.6"
+  }
+}
