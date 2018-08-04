@@ -6,7 +6,7 @@
     "node": "6.x.x"
   },
   "local-web-server": {
-    "port": 8081,
+    "port": 3000,
     "forbid": "*.json"
   },
   "scripts": {
@@ -16,9 +16,12 @@
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^3.1.1",
+    "gulp-autoprefixer": "^5.0.0",
     "gulp-install": "^1.1.0",
-    "gulp-sass": "^2.3.2",
-    "local-web-server": "^1.2.6"
+    "gulp-sass": "^3.0.0",
+    "local-web-server": "^2.6.0"
+  },
+  "dependencies": {
+    "node-sass": "^4.9.2"
   }
 }
