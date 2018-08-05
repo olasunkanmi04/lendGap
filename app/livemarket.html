@@ -11,7 +11,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles2.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
 </head>
 
@@ -115,6 +118,8 @@
 
     <!-- page content -->
     <main class="livemarket page dashboard-page sidebar-pusher">
+
+
         <!-- banner section -->
         <section class="banner-section page-section image-bg-section collapse show">
             <div class="background bg-cover bg-center-right bg-fixed" style="background-image: url('img/dashboard-ad.jpg')">
@@ -140,6 +145,9 @@
                 </svg>
             </button>
         </section>
+
+
+
         <!-- marketplace section -->
         <section class="marketplace page-section">
             <div class="content lgp-container d-flex flex-column align-items-center">
@@ -1118,7 +1126,70 @@
                 <!-- <a data-toggle="modal" data-target="#welcome-modal" href="">Welcome Modal</a> -->
             </div>
         </section>
+
+
     </main>
+
+    <!-- tours -->
+
+    <!-- Marketplace Tour -->
+    <div class="tour tour__marketplace">
+        <h5 class="tour__heading">Marketplace</h5>
+        <p class="tour__info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde dicta dolor similique ipsum asperiores laudantium
+            recusandae molestias exercitationem ducimus accusamus atque</p>
+        <div class="tour__buttons">
+            <a href="#" class="align-middle tour__skip">Skip</a>
+            <a href="#" class="btn btn-sm btn-caps btn-fuchsia btn-chrome float-right tour__next">Next</a>
+        </div>
+    </div>
+
+    <!-- borrow tour -->
+    <div class="tour tour__borrow">
+        <h5 class="tour__heading">Borrow</h5>
+        <p class="tour__info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde dicta dolor similique ipsum asperiores laudantium
+            recusandae molestias exercitationem ducimus accusamus atque</p>
+        <div class="tour__buttons">
+            <a href="#" class="align-middle tour__skip">Skip</a>
+            <a href="#" class="btn btn-sm btn-caps btn-fuchsia btn-chrome float-right tour__next">Next</a>
+        </div>
+    </div>
+
+    <!-- lend tour -->
+    <div class="tour tour__lend">
+        <h5 class="tour__heading">Lend</h5>
+        <p class="tour__info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde dicta dolor similique ipsum asperiores laudantium
+            recusandae molestias exercitationem ducimus accusamus atque</p>
+        <div class="tour__buttons">
+            <a href="#" class="align-middle tour__skip">Skip</a>
+            <a href="#" class="btn btn-sm btn-caps btn-fuchsia btn-chrome float-right tour__next">Next</a>
+        </div>
+    </div>
+
+    <!-- Transaction tour -->
+    <div class="tour tour__transactions">
+        <h5 class="tour__heading">Transactions</h5>
+        <p class="tour__info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde dicta dolor similique ipsum asperiores laudantium
+            recusandae molestias exercitationem ducimus accusamus atque</p>
+        <div class="tour__buttons">
+            <a href="#" class="align-middle tour__skip">Skip</a>
+            <a href="#" class="btn btn-sm btn-caps btn-fuchsia btn-chrome float-right tour__next">Next</a>
+        </div>
+    </div>
+
+
+    <!-- Account tour -->
+    <div class="tour tour__account">
+        <h5 class="tour__heading">Account</h5>
+        <p class="tour__info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde dicta dolor similique ipsum asperiores laudantium
+            recusandae molestias exercitationem ducimus accusamus atque</p>
+        <div class="tour__buttons">
+            <a href="#" class="align-middle  tour__skip">Skip</a>
+            <a href="#" class="btn btn-sm btn-caps btn-fuchsia btn-chrome float-right tour__get-started" data-toggle="modal" data-target="#get-started-modal"
+                href="">Get Started</a>
+        </div>
+    </div>
+
+    <!-- ///Tours -->
 
     <!-- Modals -->
     <div class="modal fade lgp-modal loan-modal" id="loan-offer-modal" tabindex="-1" role="dialog" aria-labelledby="LoanOfferModdal"
@@ -1425,15 +1496,48 @@
                     <div class="content-section d-flex flex-column justify-content-end">
                         <img src="img/new-icons/confetti.svg" alt="" width="35" height="35" class="welcome__modal-icon">
                         <div class="info">
-
                             <h3 class="welcome__modal-header">Congratulations Jumoke!</h3>
                             <p class="text-center welcome__modal-info">You have successfully signed up to lendGap. Take a tour so you get a grasp of how to
                                 <span class="welcome__modal-info-key">borrow</span> or
                                 <span class="welcome__modal-info-key">lend</span> on lendGap</p>
                         </div>
-                        <div class="ctas d-flex flex-column mt-2">
-                            <a href="#" class="btn btn-sm btn-caps btn-fuchsia btn-chrome">Begin Tour</a>
+                        <div class="ctas d-flex flex-column mt-2 w-50 mx-auto">
+                            <a href="#" class="btn btn-sm btn-caps btn-fuchsia btn-chrome modal__tour-button">Begin Tour</a>
                             <a href="#" class="text-center mt-1" data-dismiss="modal" aria-label="Close">Skip tour</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="modal-options d-flex flex-column">
+                <button class="close btn btn-icon btn-lg btn-trans-blue" title="Close" type="button" data-dismiss="modal" aria-label="Close">
+                    <svg class="icon">
+                        <use xlink:href="#close" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- get started modal -->
+    <div class="modal fade lgp-modal loan-modal" id="get-started-modal" tabindex="-1" role="dialog" aria-labelledby="getstartedModal"
+        aria-hidden="true">
+        <div class="modal-dialog welcome__modal" role="document">
+            <div class="modal-content">
+                <div class="details">
+                    <div class="content-section d-flex flex-column justify-content-end">
+                        <img src="img/new-icons/icon.svg" alt="" width="35" height="35" class="welcome__modal-icon">
+                        <div class="info">
+                            <h3 class="welcome__modal-header">Tour Completed</h3>
+                            <p class="text-center welcome__modal-info">You have successfully gone through the tour, it's time to get started. You will need to add you
+                                debit or credit card details before you can
+                                <span class="welcome__modal-info-key">borrow</span> or
+                                <span class="welcome__modal-info-key">lend</span> on lendGap</p>
+                        </div>
+                        <div class="ctas d-flex flex-column mt-2 w-50 mx-auto">
+                            <a href="account.html" class="btn btn-sm btn-caps btn-fuchsia btn-chrome">
+                                <i class="far fa-credit-card fa-2x mr-2"></i>Add Card</a>
+                            <a href="#" class="text-center mt-1" data-dismiss="modal" aria-label="Close">Later</a>
                         </div>
                     </div>
                 </div>
@@ -1517,6 +1621,27 @@
         $(window).on('load', function () {
             $('#welcome-modal').modal('show');
         });
+    </script>
+
+    <script>
+        $('.modal__tour-button').click(function () {
+            $('#welcome-modal').modal('hide');
+            $('.tour__marketplace').css('display', 'block');
+        })
+    </script>
+    <script>
+        $('.tour__next').click(function () {
+            $(this).parentsUntil('body').css('display', 'none');
+            $(this).parentsUntil('body').next().css('display', 'block');
+        })
+
+        $('.tour__skip').click(function () {
+            $('.tour').css('display', 'none');
+        })
+
+        $('.tour__get-started').click(function () {
+            $(this).parentsUntil('body').css('display', 'none');
+        })
     </script>
 </body>
 

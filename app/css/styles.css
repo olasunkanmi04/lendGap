@@ -4315,30 +4315,3 @@ input.mobile-nav-toggle:checked~.hero-navbar .mobile-nav .nav-link {
     margin-top: 50px;
   }
 }
-
-.welcome__modal-header {
-  color: #000;
-  text-align: center;
-  font-size: 20px;
-  margin-bottom: 16px;
-}
-
-.welcome__modal-info {
-  font-size: 1.2em !important;
-}
-
-.welcome__modal-info-key {
-  color: #000 !important;
-  font-weight: 600 !important;
-}
-
-.welcome__modal-icon {
-  margin: 0 auto;
-  margin-bottom: 12px;
-}
-
-@media screen and (min-width: 768px) {
-  .welcome__modal {
-    max-width: 500px !important;
-  }
-}

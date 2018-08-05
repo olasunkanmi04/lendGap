@@ -1,0 +1,132 @@
+/* New features */
+
+/* Marketplace */
+
+.welcome__modal-header {
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.welcome__modal-info {
+    font-size: 1.2em !important;
+}
+
+.welcome__modal-info-key {
+    color: #000 !important;
+    font-weight: 600 !important;
+}
+
+.welcome__modal-icon {
+    margin: 0 auto;
+    margin-bottom: 12px;
+}
+
+@media screen and (min-width: 768px) {
+    .welcome__modal {
+        max-width: 500px !important;
+    }
+}
+
+.tour {
+    padding: 30px;
+    position: fixed;
+    background-color: #FFF;
+    width: 26%;
+    box-shadow: 0px 0px 17px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    border-radius: 5px;
+    margin-left: 18px;
+}
+
+.tour:after {
+    content: ' ';
+    width: 0px;
+    height: 0px;
+    border-top: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #FFF;
+    position: absolute;
+    right: 100%;
+    top: 7%;
+    margin-left: -10px;
+}
+
+.tour__heading {
+    color: #000 !important;
+    font-weight: 600;
+}
+
+.tour__info {
+    color: #000;
+    font-weight: 500;
+}
+
+.tour__marketplace {
+    top: 84px;
+    display: none;
+}
+
+.tour__borrow {
+    top: 146px;
+    display: none;
+}
+
+.tour__lend {
+    top: 201px;
+    display: none;
+}
+
+.tour__transactions {
+    top: 263px;
+    display: none;
+}
+
+.tour__account {
+    top: 323px;
+    display: none;
+}
+
+@media screen and (max-width: 1006px) {
+    .tour {
+        width: 36%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .tour {
+        width: calc(100% - 100px);
+        margin-left: 8%;
+        top: 30%;
+    }
+    .tour:after {
+        display: none;
+    }
+}
+
+/* Account */
+
+.linked__account {
+    box-shadow: 0px 1px 6px 0px rgba(57, 73, 76, 0.35);
+    padding: 10px 15px;
+    background-color: #FFF;
+    border-radius: 2px;
+}
+
+.linked__account:hover {
+    box-shadow: 0px 2px 10px 0px rgba(57, 73, 76, 0.5);
+}
+
+.linked__account-text {
+    color: #656565;
+    margin: 0 !important;
+    vertical-align: middle;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.connected {
+    color: rgb(206, 48, 98);
+}
