@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700">
+    <link rel="stylesheet" href="css/styles2.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
 </head>
 
@@ -32,14 +33,12 @@
                 </label>
                 <nav class="mobile-nav">
                     <div class="content lgp-container">
-                        <a class="nav-link" href="">Become a lender</a>
                         <a class="nav-link" href="">Help</a>
                         <a class="nav-link" href="log-in.html">Log in</a>
                         <a class="nav-link" href="sign-up.html">Create an account</a>
                     </div>
                 </nav>
                 <nav class="top-nav">
-                    <a class="btn btn-trans-white" href="">Become a lender</a>
                     <a class="btn btn-trans-white" href="">Help</a>
                     <a class="btn btn-trans-white" href="log-in.html">Log in</a>
                     <a class="btn btn-white btn-chrome btn-shadow cta" href="sign-up.html">Sign up</a>
@@ -120,9 +119,6 @@
         </section>
         <section class="marketplace page-section">
             <div class="content lgp-container d-flex flex-column align-items-center">
-                <h2 class="title header-lg text-heavy text-center">Marketplace</h2>
-                <p class="description text-center">See some existing loan offers by top lenders from which you can benefit. Lenders are always available to
-                    offer you the best loan options.</p>
                 <div class="lgp-tabs">
                     <!-- non tab/panel content -->
                     <form class="options-bar lgp-form">
@@ -189,8 +185,6 @@
                                                 <span class="amount">1,290,000</span>
                                             </h3>
                                             <span class="detail">
-                                                <span class="preamble">Interest:</span>50%</span>
-                                            <span class="detail">
                                                 <span class="preamble">Loan Tenure:</span>6 Months</span>
                                         </div>
                                     </div>
@@ -244,8 +238,6 @@
                                                 <span class="currency text-unit">N</span>
                                                 <span class="amount">50,000</span>
                                             </h3>
-                                            <span class="detail">
-                                                <span class="preamble">Interest:</span>30%</span>
                                             <span class="detail">
                                                 <span class="preamble">Loan Tenure:</span>5 days</span>
                                         </div>
@@ -302,8 +294,6 @@
                                                 <span class="amount">3,000</span>
                                             </h3>
                                             <span class="detail">
-                                                <span class="preamble">Interest:</span>10%</span>
-                                            <span class="detail">
                                                 <span class="preamble">Loan Tenure:</span>2 Months</span>
                                         </div>
                                     </div>
@@ -358,8 +348,6 @@
                                                 <span class="currency text-unit">N</span>
                                                 <span class="amount">600,000</span>
                                             </h3>
-                                            <span class="detail">
-                                                <span class="preamble">Interest:</span>10%</span>
                                             <span class="detail">
                                                 <span class="preamble">Loan Tenure:</span>18 Months</span>
                                         </div>
@@ -416,8 +404,6 @@
                                                 <span class="amount">3,000</span>
                                             </h3>
                                             <span class="detail">
-                                                <span class="preamble">Interest:</span>10%</span>
-                                            <span class="detail">
                                                 <span class="preamble">Loan Tenure:</span>2 Months</span>
                                         </div>
                                     </div>
@@ -473,8 +459,6 @@
                                                 <span class="amount">38,500</span>
                                             </h3>
                                             <span class="detail">
-                                                <span class="preamble">Interest:</span>25%</span>
-                                            <span class="detail">
                                                 <span class="preamble">Loan Tenure:</span>3 Weeks</span>
                                         </div>
                                     </div>
@@ -513,185 +497,17 @@
                             </li>
                         </ul>
                     </div>
+
+
+
                     <!-- marketplace offers tab -->
                     <input class="tab-input hidden" type="radio" name="marketplace-tabs" id="marketplace-offers-tab" hidden>
-                    <label class="tab-button btn btn-tab btn-chrome" for="marketplace-offers-tab">
+                    <label class="tab-button btn btn-tab loan-offer-btn btn-chrome" for="marketplace-offers-tab">
                         <span class="d-none d-sm-inline">Loan&nbsp;</span> Offers</label>
                     <div class="tab-panel">
                         <ul class="lgp-grid with-gutter sm-columns-2 lg-columns-3">
                             <li class="grid-item">
-                                <a class="loan-grid-card bookmark" data-toggle="modal" data-target="#loan-offer-modal" href="">
-                                    <div class="card-section body d-flex">
-                                        <div class="details d-flex flex-column">
-                                            <div class="bookmark-toggle" title="Add/Remove Boomark">
-                                                <div class="icon-wrapper">
-                                                    <svg class="icon filler">
-                                                        <use xlink:href="#flag-filler"></use>
-                                                    </svg>
-                                                    <svg class="icon outline">
-                                                        <use xlink:href="#flag-outline"></use>
-                                                    </svg>
-                                                </div>
-                                            </div>
-                                            <h3 class="title loan-amount header-sm">
-                                                <span class="currency text-unit">N</span>
-                                                <span class="amount">600,000</span>
-                                            </h3>
-                                            <span class="detail">
-                                                <span class="preamble">Interest:</span>10%</span>
-                                            <span class="detail">
-                                                <span class="preamble">Loan Tenure:</span>18 Months</span>
-                                        </div>
-                                    </div>
-                                    <div class="card-section footer d-flex flex-row justify-content-between align-items-center">
-                                        <div class="lender-profile d-flex align-items-center">
-                                            <div class="profile-photo shadow">
-                                                <svg class="avatar icon">
-                                                    <use xlink:href="#avatar"></use>
-                                                </svg>
-                                                <div class="photo bg-cover bg-center" style="background-image: url('./img/profile-1.jpg')"></div>
-                                            </div>
-                                            <span class="profile-name">Tinuke</span>
-                                        </div>
-                                        <div class="lender-rating ">
-                                            <!--<span class="preamble">Lender Rating:</span>-->
-                                            <span class="rating stars-3">
-                                                <svg class="icon">
-                                                    <use xlink:href="#star"></use>
-                                                </svg>
-                                                <svg class="icon">
-                                                    <use xlink:href="#star"></use>
-                                                </svg>
-                                                <svg class="icon">
-                                                    <use xlink:href="#star"></use>
-                                                </svg>
-                                                <svg class="icon">
-                                                    <use xlink:href="#star"></use>
-                                                </svg>
-                                                <svg class="icon">
-                                                    <use xlink:href="#star"></use>
-                                                </svg>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="grid-item">
-                                <a class="loan-grid-card" data-toggle="modal" data-target="#loan-offer-modal" href="">
-                                    <div class="card-section body d-flex">
-                                        <div class="details d-flex flex-column">
-                                            <div class="bookmark-toggle" title="Add/Remove Boomark">
-                                                <div class="icon-wrapper">
-                                                    <svg class="icon filler">
-                                                        <use xlink:href="#flag-filler"></use>
-                                                    </svg>
-                                                    <svg class="icon outline">
-                                                        <use xlink:href="#flag-outline"></use>
-                                                    </svg>
-                                                </div>
-                                            </div>
-                                            <h3 class="title loan-amount header-sm">
-                                                <span class="currency text-unit">N</span>
-                                                <span class="amount">3,000</span>
-                                            </h3>
-                                            <span class="detail">
-                                                <span class="preamble">Interest:</span>10%</span>
-                                            <span class="detail">
-                                                <span class="preamble">Loan Tenure:</span>2 Months</span>
-                                        </div>
-                                    </div>
-                                    <div class="card-section footer d-flex flex-row justify-content-between align-items-center">
-                                        <div class="lender-profile d-flex align-items-center">
-                                            <div class="profile-photo shadow">
-                                                <svg class="avatar icon">
-                                                    <use xlink:href="#avatar"></use>
-                                                </svg>
-                                                <div class="photo bg-cover bg-center" style="background-image: url('./img/profile-2.jpg')"></div>
-                                            </div>
-                                            <span class="profile-name">Ugochukwu</span>
-                                        </div>
-                                        <div class="lender-rating ">
-                                            <!--<span class="preamble">Lender Rating:</span>-->
-                                            <span class="rating stars-4">
-                                                <svg class="icon">
-                                                    <use xlink:href="#star"></use>
-                                                </svg>
-                                                <svg class="icon">
-                                                    <use xlink:href="#star"></use>
-                                                </svg>
-                                                <svg class="icon">
-                                                    <use xlink:href="#star"></use>
-                                                </svg>
-                                                <svg class="icon">
-                                                    <use xlink:href="#star"></use>
-                                                </svg>
-                                                <svg class="icon">
-                                                    <use xlink:href="#star"></use>
-                                                </svg>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="grid-item">
-                                <a class="loan-grid-card bookmark" data-toggle="modal" data-target="#loan-offer-modal" href="">
-                                    <div class="card-section body d-flex">
-                                        <div class="details d-flex flex-column">
-                                            <div class="bookmark-toggle" title="Add/Remove Boomark">
-                                                <div class="icon-wrapper">
-                                                    <svg class="icon filler">
-                                                        <use xlink:href="#flag-filler"></use>
-                                                    </svg>
-                                                    <svg class="icon outline">
-                                                        <use xlink:href="#flag-outline"></use>
-                                                    </svg>
-                                                </div>
-                                            </div>
-                                            <h3 class="title loan-amount header-sm">
-                                                <span class="currency text-unit">N</span>
-                                                <span class="amount">38,500</span>
-                                            </h3>
-                                            <span class="detail">
-                                                <span class="preamble">Interest:</span>25%</span>
-                                            <span class="detail">
-                                                <span class="preamble">Loan Tenure:</span>3 Weeks</span>
-                                        </div>
-                                    </div>
-                                    <div class="card-section footer d-flex flex-row justify-content-between align-items-center">
-                                        <div class="lender-profile d-flex align-items-center">
-                                            <div class="profile-photo shadow">
-                                                <svg class="avatar icon">
-                                                    <use xlink:href="#avatar"></use>
-                                                </svg>
-                                                <div class="photo bg-cover bg-center" style="background-image: url('./img/profile-3.jpg')"></div>
-                                            </div>
-                                            <span class="profile-name">Zainab</span>
-                                        </div>
-                                        <div class="lender-rating ">
-                                            <!--<span class="preamble">Lender Rating:</span>-->
-                                            <span class="rating stars-2">
-                                                <svg class="icon">
-                                                    <use xlink:href="#star"></use>
-                                                </svg>
-                                                <svg class="icon">
-                                                    <use xlink:href="#star"></use>
-                                                </svg>
-                                                <svg class="icon">
-                                                    <use xlink:href="#star"></use>
-                                                </svg>
-                                                <svg class="icon">
-                                                    <use xlink:href="#star"></use>
-                                                </svg>
-                                                <svg class="icon">
-                                                    <use xlink:href="#star"></use>
-                                                </svg>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="grid-item">
-                                <a class="loan-grid-card" data-toggle="modal" data-target="#loan-offer-modal" href="">
+                                <a class="loan-grid-card loan-offers" data-toggle="modal" data-target="#loan-offer-modal" href="">
                                     <div class="card-section body d-flex">
                                         <div class="details d-flex flex-column">
                                             <div class="bookmark-toggle" title="Add/Remove Boomark">
@@ -714,7 +530,7 @@
                                                 <span class="preamble">Loan Tenure:</span>1 Month</span>
                                         </div>
                                     </div>
-                                    <div class="card-section footer d-flex flex-row justify-content-between align-items-center">
+                                    <div class="card-section loan-offer-footer d-flex flex-row justify-content-between align-items-center">
                                         <div class="lender-profile d-flex align-items-center">
                                             <div class="profile-photo shadow">
                                                 <svg class="avatar icon">
@@ -748,7 +564,7 @@
                                 </a>
                             </li>
                             <li class="grid-item">
-                                <a class="loan-grid-card bookmark" data-toggle="modal" data-target="#loan-offer-modal" href="">
+                                <a class="loan-grid-card loan-offers bookmark" data-toggle="modal" data-target="#loan-offer-modal" href="">
                                     <div class="card-section body d-flex">
                                         <div class="details d-flex flex-column">
                                             <div class="bookmark-toggle" title="Add/Remove Boomark">
@@ -771,7 +587,7 @@
                                                 <span class="preamble">Loan Tenure:</span>6 Months</span>
                                         </div>
                                     </div>
-                                    <div class="card-section footer d-flex flex-row justify-content-between align-items-center">
+                                    <div class="card-section loan-offer-footer d-flex flex-row justify-content-between align-items-center">
                                         <div class="lender-profile d-flex align-items-center">
                                             <div class="profile-photo shadow">
                                                 <svg class="avatar icon">
@@ -805,7 +621,7 @@
                                 </a>
                             </li>
                             <li class="grid-item">
-                                <a class="loan-grid-card" data-toggle="modal" data-target="#loan-offer-modal" href="">
+                                <a class="loan-grid-card loan-offers" data-toggle="modal" data-target="#loan-offer-modal" href="">
                                     <div class="card-section body d-flex">
                                         <div class="details d-flex flex-column">
                                             <div class="bookmark-toggle" title="Add/Remove Boomark">
@@ -828,7 +644,7 @@
                                                 <span class="preamble">Loan Tenure:</span>5 days</span>
                                         </div>
                                     </div>
-                                    <div class="card-section footer d-flex flex-row justify-content-between align-items-center">
+                                    <div class="card-section loan-offer-footer d-flex flex-row justify-content-between align-items-center">
                                         <div class="lender-profile d-flex align-items-center">
                                             <div class="profile-photo shadow">
                                                 <svg class="avatar icon">
@@ -861,12 +677,184 @@
                                     </div>
                                 </a>
                             </li>
+                            <li class="grid-item">
+                                <a class="loan-grid-card loan-offers" data-toggle="modal" data-target="#loan-offer-modal" href="">
+                                    <div class="card-section body d-flex">
+                                        <div class="details d-flex flex-column">
+                                            <div class="bookmark-toggle" title="Add/Remove Boomark">
+                                                <div class="icon-wrapper">
+                                                    <svg class="icon filler">
+                                                        <use xlink:href="#flag-filler"></use>
+                                                    </svg>
+                                                    <svg class="icon outline">
+                                                        <use xlink:href="#flag-outline"></use>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <h3 class="title loan-amount header-sm">
+                                                <span class="currency text-unit">N</span>
+                                                <span class="amount">3,000</span>
+                                            </h3>
+                                            <span class="detail">
+                                                <span class="preamble">Interest:</span>10%</span>
+                                            <span class="detail">
+                                                <span class="preamble">Loan Tenure:</span>2 Months</span>
+                                        </div>
+                                    </div>
+                                    <div class="card-section loan-offer-footer d-flex flex-row justify-content-between align-items-center">
+                                        <div class="lender-profile d-flex align-items-center">
+                                            <div class="profile-photo shadow">
+                                                <svg class="avatar icon">
+                                                    <use xlink:href="#avatar"></use>
+                                                </svg>
+                                                <div class="photo bg-cover bg-center" style="background-image: url('./img/profile-2.jpg')"></div>
+                                            </div>
+                                            <span class="profile-name">Ugochukwu</span>
+                                        </div>
+                                        <div class="lender-rating ">
+                                            <!--<span class="preamble">Lender Rating:</span>-->
+                                            <span class="rating stars-4">
+                                                <svg class="icon">
+                                                    <use xlink:href="#star"></use>
+                                                </svg>
+                                                <svg class="icon">
+                                                    <use xlink:href="#star"></use>
+                                                </svg>
+                                                <svg class="icon">
+                                                    <use xlink:href="#star"></use>
+                                                </svg>
+                                                <svg class="icon">
+                                                    <use xlink:href="#star"></use>
+                                                </svg>
+                                                <svg class="icon">
+                                                    <use xlink:href="#star"></use>
+                                                </svg>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="grid-item">
+                                <a class="loan-grid-card loan-offers bookmark" data-toggle="modal" data-target="#loan-offer-modal" href="">
+                                    <div class="card-section body d-flex">
+                                        <div class="details d-flex flex-column">
+                                            <div class="bookmark-toggle" title="Add/Remove Boomark">
+                                                <div class="icon-wrapper">
+                                                    <svg class="icon filler">
+                                                        <use xlink:href="#flag-filler"></use>
+                                                    </svg>
+                                                    <svg class="icon outline">
+                                                        <use xlink:href="#flag-outline"></use>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <h3 class="title loan-amount header-sm">
+                                                <span class="currency text-unit">N</span>
+                                                <span class="amount">38,500</span>
+                                            </h3>
+                                            <span class="detail">
+                                                <span class="preamble">Interest:</span>25%</span>
+                                            <span class="detail">
+                                                <span class="preamble">Loan Tenure:</span>3 Weeks</span>
+                                        </div>
+                                    </div>
+                                    <div class="card-section loan-offer-footer d-flex flex-row justify-content-between align-items-center">
+                                        <div class="lender-profile d-flex align-items-center">
+                                            <div class="profile-photo shadow">
+                                                <svg class="avatar icon">
+                                                    <use xlink:href="#avatar"></use>
+                                                </svg>
+                                                <div class="photo bg-cover bg-center" style="background-image: url('./img/profile-3.jpg')"></div>
+                                            </div>
+                                            <span class="profile-name">Zainab</span>
+                                        </div>
+                                        <div class="lender-rating ">
+                                            <!--<span class="preamble">Lender Rating:</span>-->
+                                            <span class="rating stars-2">
+                                                <svg class="icon">
+                                                    <use xlink:href="#star"></use>
+                                                </svg>
+                                                <svg class="icon">
+                                                    <use xlink:href="#star"></use>
+                                                </svg>
+                                                <svg class="icon">
+                                                    <use xlink:href="#star"></use>
+                                                </svg>
+                                                <svg class="icon">
+                                                    <use xlink:href="#star"></use>
+                                                </svg>
+                                                <svg class="icon">
+                                                    <use xlink:href="#star"></use>
+                                                </svg>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="grid-item">
+                                <a class="loan-grid-card loan-offers" data-toggle="modal" data-target="#loan-offer-modal" href="">
+                                    <div class="card-section body d-flex">
+                                        <div class="details d-flex flex-column">
+                                            <div class="bookmark-toggle" title="Add/Remove Boomark">
+                                                <div class="icon-wrapper">
+                                                    <svg class="icon filler">
+                                                        <use xlink:href="#flag-filler"></use>
+                                                    </svg>
+                                                    <svg class="icon outline">
+                                                        <use xlink:href="#flag-outline"></use>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <h3 class="title loan-amount header-sm">
+                                                <span class="currency text-unit">N</span>
+                                                <span class="amount">48,500</span>
+                                            </h3>
+                                            <span class="detail">
+                                                <span class="preamble">Interest:</span>5%</span>
+                                            <span class="detail">
+                                                <span class="preamble">Loan Tenure:</span>1 Month</span>
+                                        </div>
+                                    </div>
+                                    <div class="card-section loan-offer-footer d-flex flex-row justify-content-between align-items-center">
+                                        <div class="lender-profile d-flex align-items-center">
+                                            <div class="profile-photo shadow">
+                                                <svg class="avatar icon">
+                                                    <use xlink:href="#avatar"></use>
+                                                </svg>
+                                                <div class="photo bg-cover bg-center" style="background-image: url('./img/profile-2.jpg')"></div>
+                                            </div>
+                                            <span class="profile-name">James</span>
+                                        </div>
+                                        <div class="lender-rating ">
+                                            <!--<span class="preamble">Lender Rating:</span>-->
+                                            <span class="rating stars-4">
+                                                <svg class="icon">
+                                                    <use xlink:href="#star"></use>
+                                                </svg>
+                                                <svg class="icon">
+                                                    <use xlink:href="#star"></use>
+                                                </svg>
+                                                <svg class="icon">
+                                                    <use xlink:href="#star"></use>
+                                                </svg>
+                                                <svg class="icon">
+                                                    <use xlink:href="#star"></use>
+                                                </svg>
+                                                <svg class="icon">
+                                                    <use xlink:href="#star"></use>
+                                                </svg>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
                 <div class="cta">
-                    <a class="btn btn-grey btn-chrome btn-shadow" href="sign-up.html">See More</a>
+                    <a class="btn btn-grey btn-chrome btn-shadow" href="">See More</a>
                 </div>
+                <!-- <a data-toggle="modal" data-target="#welcome-modal" href="">Welcome Modal</a> -->
             </div>
         </section>
         <section class="benefits page-section">
@@ -933,7 +921,7 @@
                             <p class="description">Do you have a project or business that needs funding? LendGap Pro offers startups and business
                                 owners access to crowd-funding facilities.</p>
                             <div class="cta">
-                                <a class="btn btn-fuchsia btn-caps btn-chrome btn-shadow" href="">Request a loan</a>
+                                <a class="btn btn-fuchsia btn-caps btn-chrome btn-shadow" href="sign-up.html">Request a loan</a>
                             </div>
                         </div>
                     </div>
@@ -1036,8 +1024,8 @@
                                 </p>
                             </div>
                             <div class="ctas d-flex flex-column">
-                                <a href="sign-up.html" class="btn btn-sm btn-caps btn-trans-border-fuchsia btn-chrome">Counter Offer</a>
-                                <a href="sign-up.html" class="btn btn-sm btn-caps btn-fuchsia btn-chrome">Apply</a>
+                                <a href="" class="btn btn-sm btn-caps btn-trans-border-fuchsia btn-chrome" data-toggle="modal" data-target="#counter-offer-modal">Counter Offer</a>
+                                <a href="loan-details-borrower.html" class="btn btn-sm btn-caps btn-fuchsia btn-chrome">Apply</a>
                             </div>
                         </div>
                     </div>
@@ -1077,8 +1065,6 @@
                             <span class="detail">
                                 <span class="preamble">Transaction ID:</span>053139912</span>
                             <span class="detail separate">
-                                <span class="preamble">Interest:</span>25%</span>
-                            <span class="detail">
                                 <span class="preamble">Loan Tenure:</span>3 Weeks</span>
                             <span class="detail">
                                 <span class="preamble">Installments:</span>NO</span>
@@ -1117,15 +1103,16 @@
                     </div>
                     <div class="col-md-6 actions">
                         <div class="content-section d-flex flex-column justify-content-end">
-                            <div class="info text-small">
-                                <p>Financing is carried out as quickly as possible. Once you apply for this loan, the lender
-                                    will be notified. Funding on LendGap is simple and clear, with no hidden fees.</p>
+                            <h3 class="mb-4">Purpose</h3>
+                            <div class="info">
+                                <p>To help finance a project Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+                                    ea nobis aut eaque.</p>
                                 <p>See LendGap&nbsp;
                                     <a class="text-link" href="">Terms and Conditions</a>
                                 </p>
                             </div>
                             <div class="ctas d-flex flex-column">
-                                <a href="sign-up.html" class="btn btn-sm btn-caps btn-fuchsia btn-chrome">Accept</a>
+                                <a href="loan-details-lender.html" class="btn btn-sm btn-caps btn-fuchsia btn-chrome">Accept</a>
                             </div>
                         </div>
                     </div>
