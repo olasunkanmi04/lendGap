@@ -72,22 +72,26 @@
 }
 
 .tour__borrow {
-    top: 146px;
+    top: 87px;
+    /* top: 146px; */
     display: none;
 }
 
 .tour__lend {
-    top: 201px;
+    top: 146px;
+    /* top: 201px; */
     display: none;
 }
 
 .tour__transactions {
-    top: 263px;
+    top: 205px;
+    /* top: 263px; */
     display: none;
 }
 
 .tour__account {
-    top: 323px;
+    top: 263px;
+    /* top: 323px; */
     display: none;
 }
 
